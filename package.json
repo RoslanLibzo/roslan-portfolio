@@ -1,0 +1,23 @@
+{
+  "name": "portfolio1.0",
+  "version": "1.0.0",
+  "description": "A Portfolio Project where I will host all my relevant Coding Projects that I have previously worked on!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "roslan-portfolio"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Roslan Lbzo",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1"
+  }
+}

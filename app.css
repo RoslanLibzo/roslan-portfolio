@@ -1,0 +1,42 @@
+body {
+
+}
+
+
+.container-fluid {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar {
+    background-color: rgba(0,0,0,0) !important;
+    width: 100%;
+    position: fixed;
+    top: 40px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cow{
+    height: 2000px;
+}
+#firstSection {
+    overflow: visible;
+    background-image: url("photos/OrangeBackground.png");
+    background-size: cover;
+    background-color: orange;
+    margin: 0;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar-nav > a {
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
