@@ -7,6 +7,8 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #navbar {
@@ -29,8 +31,10 @@ body {
     background-image: url("photos/OrangeBackground.png");
     background-size: cover;
     background-color: orange;
+    background-position: 0 0;
+    box-shadow: 0px -10px 35px 2px inset rgba(0, 0, 0, 0.1);
     margin: 0;
-    height: 700px;
+    height: 750px;
     width: 100%;
     z-index: -1;
 }
@@ -39,4 +43,63 @@ body {
     text-decoration: none;
     width: 100px;
     text-align: center;
+}
+ .navbar-nav > .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: black !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#NavCvButton {
+    padding: 12px 10px;
+    font-size: 16px;
+    
+}
+#NavCvButton:hover {
+    background-color: rgb(232, 65, 66);
+    border-color: rgb(232, 65, 66);
+}
+.nav-bar-button {
+    width: 180px;
+    display: flex;
+    justify-content: end;
+}
+.content-height {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.content-width {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-title > h1 {
+    font-family: 'Bebas Neue', arial;
+    color: white;
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.first-para > p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.first-title {
+    padding-top: 15px;
+    padding-bottom: none;
+}
+
+.first-para {
+    width: 650px;
 }
