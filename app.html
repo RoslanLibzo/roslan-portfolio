@@ -13,8 +13,7 @@
  
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="photos/blackfillroslan.png" alt="Roslan Lbzo" width="200" height="50" class="d-inline-block align-text-top"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,9 +35,10 @@
 
 </head>
 <body>
-    <section id="firstSection">
+    <section class="firstSection">
         <div class="content-height">
           <div class="content-width">
+            <div class="leftpart">
             <img src="photos/long white.png" alt="">
             <div class="first-title">
               <h1>Hello I'm Roslan Lbzo</h1>
@@ -48,14 +48,45 @@
                  Durham, United Kingdom
               </p>
             </div>
-
-
+            <div class="firstbutton">
+              <button class="topbutton btn btn-light">
+                Linked In Profile
+              </button>
+            </div>
+          </div>
+          <div class="rightpart">
+            <div class="funnyFace container">
+              <div class="face">
+                <div class="eyes">
+                  <span class="eye"></span>
+                  <span class="eye"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+            
           </div>
         </div>
     </section>
-    <div class="cow">
-        <h2>asljkdlasd </h2>
-    </div>
-
+    <section class="secondSection">
+      <div class="secondcontent">
+        <h2 class="secondheading"><span class="fancyRed">Blazing Fast</span> Learner,<br>
+        <span class="spancommunicator">& Epic Communicator</span></h2>
+      </div>
+    </section>
+    <!-- script for Eyes -->
+    <script>
+      document.querySelector("body").addEventListener('mousemove', eyeball);
+      function eyeball(){
+        var eye = document.querySelectorAll(".eye");
+        eye.forEach(function(eye){
+          let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+          let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2);
+          let radian = Math.atan2(event.pageX - x,event.pageY - y);
+          let rot = (radian * (180 / Math.PI) * -1) + 270;
+          eye.style.transform = "rotate("+ rot + "deg)";
+        })
+      }
+    </script>
 </body>
 </html>
