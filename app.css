@@ -138,7 +138,7 @@ body {
 }
 
 .spancommunicator {
-    padding-top: 100px;
+    line-height: 100px;
 }
 
 .secondheading {
@@ -161,8 +161,38 @@ body {
 }
 
 
+.secondbuttons {
+    padding-top: 50px;
+}
+
+.sec2button1 {
+    padding: 20px 25px;
+    border-radius: 0px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+    background-color: rgb(0, 0, 0)
+}
+
+.sec2button1:hover {
+    background-color: rgb(232, 65, 66);
+    color: rgb(255,255,255);
+}
 
 
+.sec2button2 {
+    padding: 20px 25px;
+    border-radius: 0px;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+.sec2button2:hover {
+    background-color: rgb(255, 255, 255);
+    color:rgb(232, 65, 66);
+    border-color: rgb(232, 65, 66);
+}
 
 
 
