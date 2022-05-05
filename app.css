@@ -9,11 +9,12 @@ body {
     padding: 0px 30px;
 }
 
-#navbar {
-    background-color: rgba(0,0,0,0) !important;
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
     width: 100%;
     position: fixed;
     top: 40px;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -21,6 +22,12 @@ body {
     margin-right: auto;
 }
 
+.navbar-scrolled {
+    background-color: rgb(255, 255, 255) !important;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
 
 
 
@@ -129,12 +136,14 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 64px;
+    display: inline-block;
     letter-spacing: 0px;
     word-spacing: 0px;
     background-color:rgb(232, 65, 66);
     color: white;
     padding: 15px 14px;
     margin-right: -10px;
+    margin-top: 0px;
 }
 
 .spancommunicator {
@@ -153,11 +162,12 @@ body {
 .secondcontent {
 
     display: flex;
+    justify-content: space-between;
     width: 100%;
     max-width: 1260px;
     margin-left: auto;
     margin-right: auto;
-    padding: 200px 30px;
+    padding: 190px 30px;
 }
 
 
@@ -166,7 +176,7 @@ body {
 }
 
 .sec2button1 {
-    padding: 20px 25px;
+    padding: 20px 25px 15px 25px;
     border-radius: 0px;
     margin-right: 10px;
     font-weight: 700;
@@ -194,7 +204,24 @@ body {
     border-color: rgb(232, 65, 66);
 }
 
+.secondright {
+}
 
+.coderimg {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    
+}
+
+.thirdSection {
+    background-color: rgb(94, 23, 254);
+    height: 750px;
+}
 
 
 
@@ -209,6 +236,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0;
 }
 
 .container .face {
