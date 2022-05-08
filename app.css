@@ -264,6 +264,7 @@ body {
 }
 .thirdContent {
     display: flex;
+    flex-direction: column;
     transform: translate(0, 0);
     width: 100%;
     max-width: 1260px;
@@ -313,9 +314,31 @@ body {
 
 }
 
+.thirdHeader-bottom p {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 30px;
 
+}
 
-
+.third-features {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 100px;
+}
+.feature {
+    width: 100%;
+    max-width: 300px;
+}
+.feature h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
 
 
 
