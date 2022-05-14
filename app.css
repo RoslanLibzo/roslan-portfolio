@@ -423,6 +423,46 @@ body {
     color: rgb(255,255,255);
 }
 
+.fourthSection {
+    background-color: green;
+    display: flex;
+    position: absoulute;
+    justify-content: center;
+    padding: 200px 0px 190px 0px;
+    
+}
+
+.fourthContent {
+    background-color: rgba(255, 125, 25, 0.9);
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    max-width: 1260px;
+    padding: 0px 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+}
+
+.card:nth-of-type(1){
+    background-color: purple;
+
+}
+
+.fifthSection {
+background-color: pink;
+height: 300px;
+}
 /* FACE GUY STUFF */
 .container {
     position: relative;
