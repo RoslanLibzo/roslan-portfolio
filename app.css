@@ -456,9 +456,12 @@ body {
 
 .card:nth-of-type(1){
     grid-column: 1 / 4;
+    order: 0;
+}
+.campGrounds-card {
     padding: 20px;
 }
-.card:nth-of-type(1) h3{
+.campGrounds-card h3{
     padding: 30px;
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
@@ -489,9 +492,7 @@ body {
     max-width: 700px;
     border-radius: 5px;
 }
-.blur {
-    
-}
+
 .camp-image-overlay {
     position: absolute;
     top: 0;
@@ -523,7 +524,7 @@ body {
     background-color: rgb(255, 255, 255);
     margin-left: -125px;
     margin-right: 0px;
-    height: 270px;
+    min-height: 270px;
     max-width: 750px;
     padding: 30px;
     border-radius: 5px;
@@ -541,12 +542,17 @@ body {
 .camp-skills {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px;
 }
 
 .skill {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(94, 23, 254);
+    padding: 10px 10px;
 }
 
 .camp-buttons {
@@ -573,12 +579,16 @@ body {
 }
 .card:nth-of-type(2){
     grid-column: 1 / 3;
+    order: 1;
+}
+.luigisProductReviews-card {
     background-color: rgb(255, 174, 40);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
-.card:nth-of-type(2) h3{
+.luigisProductReviews-card h3{
     padding: 20px;
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
@@ -589,26 +599,51 @@ body {
 .luigis-bottom-half {
     display: flex;
     flex-direction: row; 
-
 }
 .luigis-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 400px;
+    min-width: 300px;
 }
 .luigis-card {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding: 30px;
     max-width: 590px;
-    height: 275px;
+
+    min-height: 275px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     z-index: 2;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.luigis-card p {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin: 0px;
+}
+.luigi-skills {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    margin: 0px;
+}
+.luigis-skills li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(94, 23, 254);
+    padding: 10px 10px;
+}
+.luigis-buttons {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .luigis-right {
@@ -624,8 +659,10 @@ body {
 }
 .luigis-right img{
     width: 100%;
+    object-fit: cover;
+    size: cover;
     max-width: 600px;
-    height: 360px;
+    min-height: 360px;
     border-radius: 5px;
 }
 .luigis-image-overlay {
@@ -640,19 +677,30 @@ body {
     transition: 500ms ease;
 }
 .card:nth-of-type(3){
-    background-color:rgb(232, 65, 66);
+    background-color: rgb(94, 23, 254);
+    order: 2;
 }
 .card:nth-of-type(4){
-    background-color: rgb(94, 23, 254);
+    background-color:rgb(232, 65, 66);
+    order: 3;
 }
 .card:nth-of-type(5){
     grid-column: 2 / 4;
     background-color: rgb(255, 255, 255);
+    order: 4;
 }
 
 .fifthSection {
 background-color: pink;
 height: 300px;
+}
+
+@media (min-width: 1024px) {
+    .fifthSection {
+        background-color: rgb(0, 0, 0);
+        height: 300px;
+        }
+        
 }
 
 
