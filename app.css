@@ -909,6 +909,9 @@ align-items: center;
     background-color: rgb(132, 106, 221);
     border: none;
 }
+.contact-now-link:hover {
+    color: rgba(255,255,255, 0.8);
+}
 @media screen and (max-width: 1125px){
     .contact-form-container{
         padding: 120px 100px;
