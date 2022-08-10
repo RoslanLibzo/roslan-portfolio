@@ -495,7 +495,7 @@
 }
 
 .fourthSection {
-    background-color: rgb(255,255,255);
+    background-color: rgb(252,252,252);
     display: flex;
     justify-content: center;
     height: auto;
@@ -513,7 +513,7 @@
 }
 
 .project-box {
-    height: 400px;
+    min-height: 420px;
     padding: 5px;
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(255, 255, 255);
@@ -525,7 +525,7 @@
 }
 .project-box:hover {
     padding: 0px;
-    height: 420px;
+    min-height: 435px;
     box-shadow: 0px 0px 40px rgba(168, 16, 16, 0.7);
     border-bottom: 3px solid rgb(232, 65, 66);
 }
@@ -613,9 +613,15 @@
 .black-button:hover {
     background-color: rgba(21, 21, 21, 0.8);
 }
+.crazyheadphone-box {
+    background-image: url(./photos/crazyheadphones.png);
+}
+.business-box {
+    background-image: url(./photos/business\ calculator.png);
+}
 .photo-box {
     height: 170px;
-    background-image: url(./photos/crazyheadphones.png);
+    background-color:rgb(232, 65, 66);
     background-size: 300px;
     background-position-x: -35px;
     border-radius: 20px;
@@ -623,7 +629,10 @@
     margin: 20px auto 0px auto;
     padding: 0px;
 }
-
+.business-box {
+    background-size: 350px;
+    background-position-x: -50px;
+}
 
 
 
@@ -692,6 +701,9 @@ align-items: center;
 }
 .contact-now-link:hover {
     color: rgba(255,255,255, 0.8);
+}
+.header .business-h3 {
+    font-size: 0.825rem;
 }
 @media screen and (min-width: 992px) {
     .nav-bar-button {
