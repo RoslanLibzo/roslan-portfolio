@@ -513,6 +513,7 @@
 }
 
 .project-box {
+    max-width: 330px;
     min-height: 420px;
     padding: 5px;
     border-radius: 10px 10px 0px 0px;
@@ -529,7 +530,9 @@
     box-shadow: 0px 0px 40px rgba(168, 16, 16, 0.7);
     border-bottom: 3px solid rgb(232, 65, 66);
 }
-
+.projects-row {
+    justify-content: space-between;
+}
 
 .margin-20-left {
     margin-left: 20px;
@@ -619,15 +622,25 @@
 .business-box {
     background-image: url(./photos/business\ calculator.png);
 }
+.luigis-box {
+    background-image: url(./photos/luigis.png);
+}
+.avax-box {
+    background-image:url(./photos/avaxclone.png);
+}
 .photo-box {
     height: 170px;
     background-color:rgb(232, 65, 66);
     background-size: 300px;
-    background-position-x: -35px;
+    background-position-x: -20px;
     border-radius: 20px;
     width: 80%;
     margin: 20px auto 0px auto;
     padding: 0px;
+}
+.yelp-box {
+    background-image: url(./photos/yelpcamp.png);
+    background-position-x: -18px;
 }
 .business-box {
     background-size: 350px;
@@ -705,6 +718,9 @@ align-items: center;
 .header .business-h3 {
     font-size: 0.825rem;
 }
+.header .luigi-header {
+    font-size: 0.825rem;
+}
 @media screen and (min-width: 992px) {
     .nav-bar-button {
         display: flex;
@@ -712,6 +728,11 @@ align-items: center;
     }
     .hide-till-collapse {
         display: none;
+    }
+}
+@media screen and (max-width: 696px) {
+    .projects-row {
+        justify-content: center;
     }
 }
 @media screen and (max-width: 1125px){
