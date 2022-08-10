@@ -70,6 +70,57 @@
     font-weight: 400;
     color: black !important;
 }
+.project-btn-1 {
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(21, 21, 21); 
+}
+.project-btn-1:hover {
+    background-color: rgb(21, 21, 21);
+    color: rgb(255, 255, 255);
+}
+.project-btn-2 {
+    background-color: rgb(232, 65, 66);
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    padding: 12px 20px;
+    font-size: 0.5rem;
+    border: 1px solid rgb(255, 255, 255);
+}
+.project-btn-2:hover {
+    color: rgb(255,255,255);
+    background-color:rgb(0, 0, 0);
+    border: 1px solid rgb(21, 21, 21);
+}
+.right-sec p {
+    font-size: 2rem;
+    line-height: 40px;
+}
+.proj-box-bot-sec {
+    padding: 5px 20px;
+}
+.header {
+    margin: 0px 0px 10px 0px;
+}
+.header h3 {
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(21, 21, 21);
+    padding: 0px;
+    margin: 0px;
+}
+.header p {
+    font-size: 0.75em;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(68, 68, 68);
+    padding: 0px;
+    margin: 0px;
+}
+.proj-btn-box .btn {
+    margin-top: 0px;
+}
 
 .nav-link:hover {
     text-decoration: underline;
@@ -454,7 +505,7 @@
 }
 
 .fourthContent {
-    background-color: rgb(255,255,255);
+    background-color: rgb(252,252,252);
     width: 100%;
     display: block;
     max-width: 1260px;
@@ -462,132 +513,24 @@
 }
 
 .project-box {
-    height: 350px;
-    background-color: pink;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 500px 500px 500px 500px 500px;
-    gap: 40px 30px;
-}
-
-.card {
-    background-color: rgb(21, 21, 21);
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    margin: 0px;
-    padding: 10px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-    border-style: none;
-}
-
-.card:nth-of-type(1){
-    grid-column: 1 / 7;
-    order: 0;
-}
-.campGrounds-card {
-    padding: 20px;
-}
-.campGrounds-card h3{
-    padding: 30px;
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
-.camp-left {
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 700px;
-}
-
-.camp-bottom-half {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-}
-.camp-left img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
-
-.camp-image-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    border-radius: 5px;
-    background-color: rgba(43, 40, 189, 0.8);
-    filter: brightness(2);
-    transition: 500ms ease;
-}
-.camp-image-overlay:hover {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.camp-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-width: 300px;
-}
-.camp-content-box {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
     background-color: rgb(255, 255, 255);
-    margin: 0px;
-    right: 0;
-    min-height: 270px;
-    max-width: 750px;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    margin-bottom: 80px;
+    overflow: hidden;
+    border-bottom: 3px solid rgba(21, 21, 21, 0.64);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition-duration: 500ms;
+}
+.project-box:hover {
+    padding: 0px;
+    height: 420px;
+    box-shadow: 0px 0px 40px rgba(168, 16, 16, 0.7);
+    border-bottom: 3px solid rgb(232, 65, 66);
 }
 
-.camp-content-box p {
-    font-family: 'Monsterrat', sans-serif;
-    font-size: 18px;
-    text-align: right;
-    font-weight: 400;
-    margin: 0px;
-}
 
-.camp-skills {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0px;
-    padding: 10px 0px;
-}
-
-.skill {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: rgb(94, 23, 254);
-    padding: 10px 10px;
-}
-
-.camp-buttons {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
 .margin-20-left {
     margin-left: 20px;
 }
@@ -636,17 +579,6 @@
     left: 0;
 }
 
-
-
-.image-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    border-radius: 5px;
-}
-
 .align-left {
     text-align: left;
 }
@@ -681,6 +613,17 @@
 .black-button:hover {
     background-color: rgba(21, 21, 21, 0.8);
 }
+.photo-box {
+    height: 170px;
+    background-image: url(./photos/crazyheadphones.png);
+    background-size: 300px;
+    background-position-x: -35px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+}
+
 
 
 
@@ -875,7 +818,6 @@ align-items: center;
         padding: 10px 15px;
         font-size: 1rem;
     }
-
     .hide-small-screen {
         display: none;
     }
