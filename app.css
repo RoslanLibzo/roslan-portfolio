@@ -693,7 +693,7 @@
 
 .yelp-box {
     background-image: url(./photos/yelpcamp.png);
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(53, 2, 2, 0.808)), url(./photos/yelpcamp.png);
+    background:linear-gradient(0deg, rgba(150, 150, 150, 0.63), rgba(44, 1, 1, 0.808)), url(./photos/yelpcamp.png);
     background-size: cover;
 }
 .business-box {
