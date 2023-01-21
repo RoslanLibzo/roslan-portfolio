@@ -15,8 +15,9 @@
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
     position: fixed;
-    top: 40px;
+    padding-top: 40px;
     z-index: 1;
+    transition: background-color 500ms ease, padding-top 500ms ease;
 }
 
 .navbar-brand img{
@@ -27,6 +28,7 @@
     background-color: rgb(255, 255, 255) !important;
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.1);
     top: 0px;
+    padding-top: 7px;
     position: fixed;
     z-index: 5;
     width: 100%;
@@ -44,7 +46,13 @@
     flex-direction: column;
     align-items: center;
 }
-
+@media screen and (min-width: 990px){
+    .nav-bar-collapse {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
 
 
 .firstSection {
@@ -486,18 +494,26 @@
 
 .sec3button1 {
     padding: 20px 25px 20px 25px;
-    border-radius: 1px;
-    border-color: rgb(21, 21, 21);
+    border-radius: 0px;
+    border: none;
     font-weight: 400;
     color: rgb(255,255,255);
     background-color: rgb(21, 21, 21);
 }
 
 .sec3button1:hover {
-    background-color: rgb(232, 65, 66);
-    border-color: rgb(232, 65, 66);
-    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.5);
-    color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
+
+    border-color: rgb(21, 21, 21);
+    color: rgb(21, 21, 21);
+}
+.sec3button1 > svg path {
+    stroke:rgb(255, 255, 255);
+    transition: all 150ms ease;
+}
+
+.sec3button1:hover > svg path {
+    stroke:rgb(21, 21, 21);
 }
 
 .fourthSection {
@@ -626,29 +642,44 @@
     background-image: url(./photos/crazyheadphones.png);
     background-size: cover;
     background-size: 350px;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/crazyheadphones.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/crazyheadphones.png);
 }
 .business-box {
     background-image: url(./photos/business\ calculator.png);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/business\ calculator.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(51, 3, 3, 0.808)), url(./photos/business\ calculator.png);
 
 }
 .luigis-box {
     background-image: url(./photos/luigis.png);
     background-size: cover;
     
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)),  url(./photos/luigis.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(54, 2, 2, 0.808)),  url(./photos/luigis.png);
 }
 .avax-box {
     background-image:url(./photos/avaxclone.png);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/avaxclone.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(59, 3, 3, 0.808)), url(./photos/avaxclone.png);
 }
 .tabletennis-box {
     background-image: url(./photos/tabletennis.png);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/tabletennis.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(54, 2, 2, 0.808)), url(./photos/tabletennis.png);
+}
+.cardiff-box {
+    background-image: url(./photos/cardiff-airport.jpg);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(128, 126, 126, 0.63), rgba(54, 3, 3, 0.808)), url(./photos/cardiff-airport.jpg);
+}
+.mcr-box {
+    background-image: url(./photos/mcr-life.jpg);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/mcr-life.jpg);
+}
+.reside-box {
+    background-image: url(./photos/reside.jpg);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(92, 92, 92, 0.63), rgba(53, 3, 3, 0.808)), url(./photos/reside.jpg);
 }
 .photo-box {
     height: 190px;
@@ -662,14 +693,42 @@
 
 .yelp-box {
     background-image: url(./photos/yelpcamp.png);
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/yelpcamp.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(53, 2, 2, 0.808)), url(./photos/yelpcamp.png);
     background-size: cover;
 }
 .business-box {
     background-size: cover;
     
 }
-
+.in-dev-card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px 20px;
+    background-color:rgb(68,68,68);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.in-dev-card.live {
+    color: white;
+    background-color: rgb(232, 65, 66);
+}
+.in-dev-card.live::after {
+    content: "";
+    display: inline-block;
+    margin-left: 6px;
+    width: 12px;
+    height: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.in-dev-card.in-dev {
+    color: white;
+    background-color: rgb(21, 21, 21);
+}
 
 
 .fifthSection {
