@@ -127,9 +127,9 @@
 }
 
 #NavCvButton {
-    padding: 12px 10px;
+    padding: 12px 20px;
     font-size: 16px;
-    
+    border-radius: unset;
 }
 #NavCvButton:hover {
     background-color: rgb(232, 65, 66);
@@ -140,8 +140,8 @@
     width: 180px;
 }
 .content-height {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 300px;
+    padding-bottom: 300px;
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -191,7 +191,7 @@
 
 .topbutton {
     padding:20px 30px;
-    border-radius: 20px;
+    border-radius: unset;
     font-family: arial;
     color: rgb(233, 76, 77);
     font-weight: 700;
@@ -233,7 +233,7 @@
     word-spacing: 0px;
 }
 .secondSection {
-    padding: 190px 0px;
+    padding: 300px 0px;
     display: flex;
     z-index: 3;
     justify-content: center;
@@ -307,25 +307,31 @@
 
 .aboutme {
     position: absolute;
-    right: 0px;
-    bottom: -262px;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: -378px;
     margin: 0px 30px;
     z-index: 3;
     display: flex;
-    min-height: 150px;
+    min-height: 175px;
     width: 100%;
-    max-width: 650px;
+    max-width: 675px;
     background-color: rgb(21, 21, 21);
 }
 
 .leftsquare {
     background-color: white;
+    min-width: 175px;
 }
 .leftsquare img {
     display: block;
+    width: 100%;
+    height: 100%;
 }
 .rightpart {
     padding: 25px 55px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .rightpart p {
@@ -344,7 +350,7 @@
     background-color: rgb(94, 23, 254);
     display: flex;
     justify-content: center;
-    padding: 190px 0px 250px 0px;
+    padding: 300px 0px 300px 0px;
 }
 .thirdContent {
     display: flex;
@@ -439,7 +445,7 @@
 .built-projects-box {
     display: flex;
     position: absolute;
-    bottom: -250px;
+    bottom: -300px;
     right: 50%;
     width: 100%;
     max-width: 980px;
@@ -500,7 +506,7 @@
     justify-content: center;
     height: auto;
     align-items: stretch;
-    padding: 200px 0px 200px 0px;
+    padding: 300px 0px 230px 0px;
     
 }
 
@@ -515,19 +521,19 @@
 .project-box {
     max-width: 330px;
     min-height: 420px;
-    padding: 5px;
-    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+    
     background-color: rgb(255, 255, 255);
     margin-bottom: 80px;
     overflow: hidden;
     border-bottom: 3px solid rgba(21, 21, 21, 0.64);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition-duration: 500ms;
+    transform: scale(1);
 }
 .project-box:hover {
-    padding: 0px;
-    min-height: 435px;
-    box-shadow: 0px 0px 40px rgba(168, 16, 16, 0.7);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 60px rgba(21, 21, 21, 0.7);
     border-bottom: 3px solid rgb(232, 65, 66);
 }
 .projects-row {
@@ -618,36 +624,50 @@
 }
 .crazyheadphone-box {
     background-image: url(./photos/crazyheadphones.png);
+    background-size: cover;
+    background-size: 350px;
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/crazyheadphones.png);
 }
 .business-box {
     background-image: url(./photos/business\ calculator.png);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/business\ calculator.png);
+
 }
 .luigis-box {
     background-image: url(./photos/luigis.png);
+    background-size: cover;
+    
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)),  url(./photos/luigis.png);
 }
 .avax-box {
     background-image:url(./photos/avaxclone.png);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/avaxclone.png);
 }
 .tabletennis-box {
-    background-image: url(./photos/tabletennis.png)
+    background-image: url(./photos/tabletennis.png);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/tabletennis.png);
 }
 .photo-box {
-    height: 170px;
+    height: 190px;
+    width: 100%;
     background-color:rgb(232, 65, 66);
-    background-size: 300px;
-    background-position-x: -20px;
-    border-radius: 20px;
-    width: 80%;
-    margin: 20px auto 0px auto;
+    background-size: 350px;
+    background-position: center;
+    margin: 0px;
     padding: 0px;
 }
+
 .yelp-box {
     background-image: url(./photos/yelpcamp.png);
-    background-position-x: -18px;
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(122, 6, 6, 0.808)), url(./photos/yelpcamp.png);
+    background-size: cover;
 }
 .business-box {
-    background-size: 350px;
-    background-position-x: -50px;
+    background-size: cover;
+    
 }
 
 
