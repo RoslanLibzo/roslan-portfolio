@@ -679,7 +679,7 @@
 .reside-box {
     background-image: url(./photos/reside.jpg);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(92, 92, 92, 0.63), rgba(53, 3, 3, 0.808)), url(./photos/reside.jpg);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/reside.jpg);
 }
 .photo-box {
     height: 190px;
