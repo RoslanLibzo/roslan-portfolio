@@ -26,16 +26,4 @@ But no, For real...
 
 To know why you should hire me, You should check out my Portfolio At www.roslanlbzo.com !
 
-```javascript
-let var HiringStatus = Boolean
-let var HireMeNow = "You Are now Hired!"
-let var FireMe = "Your Are Fired..."
-if(isGreatDeveloper){
-let var HiringStatus = True
-return HireMeNow
-} else {
-return FireMe
-}
-```
-
 ### Just go for it, You won't regret it.
