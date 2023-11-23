@@ -58,8 +58,8 @@
 .firstSection {
     overflow: visible;
     background: orange;
-    background-image: url("photos/OrangeBackground.png");
-    background-image: linear-gradient(to right, rgba(94, 23, 254, 0.2), rgba(255,255,255, 0.05)), url("photos/OrangeBackground.png");
+    background-image: url("./compressed/OrangeBackground.webp");
+    background-image: linear-gradient(to right, rgba(94, 23, 254, 0.2), rgba(255,255,255, 0.05)), url("./compressed/OrangeBackground.webp");
     background-size: cover;
     background-position: 0 0;
     box-shadow: 0px -10px 35px 4px inset rgba(0, 0, 0, 0.1);
@@ -639,55 +639,51 @@
     background-color: rgba(21, 21, 21, 0.8);
 }
 .crazyheadphone-box {
-    background-image: url(./photos/crazyheadphones.png);
+    background-image: url(./compressed/crazyheadphones.webp);
     background-size: cover;
     background-size: 350px;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/crazyheadphones.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/crazyheadphones.webp);
 }
 .alderhey-box {
-    background-image: url(./photos/Alderhey\ screenshot.png);
+    background-image: url(./compressed/Alderhey\ screenshot.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)),  url(./photos/Alderhey\ screenshot.png);
+    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)),  url(./compressed/Alderhey\ screenshot.webp);
 }
 .business-box {
-    background-image: url(./photos/business\ calculator.png);
+    background-image: url(./compressed/business\ calculator.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(54, 2, 2, 0.808)),  url(./photos/business\ calculator.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(54, 2, 2, 0.808)),  url(./compressed/business\ calculator.webp);
 }
 .avax-box {
-    background-image:url(./photos/avaxclone.png);
+    background-image:url(./compressed/avaxclone.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(59, 3, 3, 0.808)), url(./photos/avaxclone.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(59, 3, 3, 0.808)), url(./compressed/avaxclone.webp);
 }
-.tabletennis-box {
-    background-image: url(./photos/tabletennis.png);
-    background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(54, 2, 2, 0.808)), url(./photos/tabletennis.png);
-}
+
 .cardiff-box {
-    background-image: url(./photos/cardiff-airport.jpg);
+    background-image: url(./compressed/cardiff-airport.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(51, 3, 3, 0.808)), url(./photos/cardiff-airport.jpg);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(51, 3, 3, 0.808)), url(./compressed/cardiff-airport.webp);
 }
 .mcr-box {
-    background-image: url(./photos/mcr-life.jpg);
+    background-image: url(./compressed/mcr-life.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/mcr-life.jpg);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/mcr-life.webp);
 }
 .reside-box {
-    background-image: url(./photos/reside.jpg);
+    background-image: url(./compressed/reside.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/reside.jpg);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/reside.webp);
 }
 .research-plusme-box {
-    background-image: url(./photos/research\ plus\ me.png);
+    background-image: url(./compressed/research\ plus\ me.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/research\ plus\ me.png);
+    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/research\ plus\ me.webp);
 }
 .ready-mixd-box {
-    background-image: url(./photos/Ready\ Mixd.png);
+    background-image: url(./compressed/Ready\ Mixd.webp);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/Ready\ Mixd.png);
+    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/Ready\ Mixd.webp);
 }
 .photo-box {
     height: 190px;
@@ -700,8 +696,8 @@
 }
 
 .yelp-box {
-    background-image: url(./photos/yelpcamp.png);
-    background:linear-gradient(0deg, rgba(150, 150, 150, 0.63), rgba(44, 1, 1, 0.808)), url(./photos/yelpcamp.png);
+    background-image: url(./compressed/yelpcamp.png);
+    background:linear-gradient(0deg, rgba(150, 150, 150, 0.63), rgba(44, 1, 1, 0.808)), url(./compressed/yelpcamp.png);
     background-size: cover;
 }
 .business-box {
