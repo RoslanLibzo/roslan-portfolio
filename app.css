@@ -644,17 +644,15 @@
     background-size: 350px;
     background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/crazyheadphones.png);
 }
+.alderhey-box {
+    background-image: url(./photos/Alderhey\ screenshot.png);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)),  url(./photos/Alderhey\ screenshot.png);
+}
 .business-box {
     background-image: url(./photos/business\ calculator.png);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(51, 3, 3, 0.808)), url(./photos/business\ calculator.png);
-
-}
-.luigis-box {
-    background-image: url(./photos/luigis.png);
-    background-size: cover;
-    
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(54, 2, 2, 0.808)),  url(./photos/luigis.png);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(54, 2, 2, 0.808)),  url(./photos/business\ calculator.png);
 }
 .avax-box {
     background-image:url(./photos/avaxclone.png);
@@ -669,7 +667,7 @@
 .cardiff-box {
     background-image: url(./photos/cardiff-airport.jpg);
     background-size: cover;
-    background:linear-gradient(0deg, rgba(128, 126, 126, 0.63), rgba(54, 3, 3, 0.808)), url(./photos/cardiff-airport.jpg);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(51, 3, 3, 0.808)), url(./photos/cardiff-airport.jpg);
 }
 .mcr-box {
     background-image: url(./photos/mcr-life.jpg);
@@ -680,6 +678,16 @@
     background-image: url(./photos/reside.jpg);
     background-size: cover;
     background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/reside.jpg);
+}
+.research-plusme-box {
+    background-image: url(./photos/research\ plus\ me.png);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/research\ plus\ me.png);
+}
+.ready-mixd-box {
+    background-image: url(./photos/Ready\ Mixd.png);
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(29, 119, 255, 0.63), rgba(48, 2, 2, 0.808)), url(./photos/Ready\ Mixd.png);
 }
 .photo-box {
     height: 190px;
