@@ -642,7 +642,7 @@
     background-image: url(./compressed/crazyheadphones.webp);
     background-size: cover;
     background-size: 350px;
-    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/crazyheadphones.webp);
+    background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/JJ\ Media.webp);
 }
 .alderhey-box {
     background-image: url(./compressed/Alderhey\ screenshot.webp);
@@ -657,6 +657,7 @@
 .avax-box {
     background-image:url(./compressed/avaxclone.webp);
     background-size: cover;
+    background-size: 120% 100%;
     background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(59, 3, 3, 0.808)), url(./compressed/avaxclone.webp);
 }
 
@@ -664,6 +665,7 @@
     background-image: url(./compressed/cardiff-airport.webp);
     background-size: cover;
     background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(51, 3, 3, 0.808)), url(./compressed/cardiff-airport.webp);
+    background-size: 140% !important;
 }
 .mcr-box {
     background-image: url(./compressed/mcr-life.webp);
@@ -674,6 +676,7 @@
     background-image: url(./compressed/reside.webp);
     background-size: cover;
     background:linear-gradient(0deg, rgba(255, 29, 29, 0.63), rgba(48, 2, 2, 0.808)), url(./compressed/reside.webp);
+    background-size: 140% !important;
 }
 .research-plusme-box {
     background-image: url(./compressed/research\ plus\ me.webp);
@@ -689,7 +692,8 @@
     height: 190px;
     width: 100%;
     background-color:rgb(232, 65, 66);
-    background-size: 350px;
+    background-size: 120%;
+    background-repeat: no-repeat;
     background-position: center;
     margin: 0px;
     padding: 0px;
